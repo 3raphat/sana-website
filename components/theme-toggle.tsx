@@ -3,6 +3,7 @@
 import { useTheme } from 'next-themes'
 import { LuMoon, LuSun } from 'react-icons/lu'
 
+import { capitalize } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
 import {
   DropdownMenu,
@@ -26,7 +27,7 @@ export function ThemeToggle({ side = 'top' }: ThemeToggleProps) {
           ) : (
             <LuMoon className="mr-2 h-4 w-4" />
           )}
-          {theme?.charAt(0).toUpperCase() + theme?.slice(1)!}
+          <span>{capitalize(theme as string)}</span>
           <span className="sr-only">Toggle theme</span>
         </Button>
       </DropdownMenuTrigger>
