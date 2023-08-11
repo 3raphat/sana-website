@@ -27,7 +27,7 @@ export function ThemeToggle({ side = 'top' }: ThemeToggleProps) {
           ) : (
             <LuMoon className="mr-2 h-4 w-4" />
           )}
-          <span>{capitalize(theme as string)}</span>
+          {capitalize(theme ?? 'system')}
           <span className="sr-only">Toggle theme</span>
         </Button>
       </DropdownMenuTrigger>
