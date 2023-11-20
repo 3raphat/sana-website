@@ -50,7 +50,7 @@ function MainNav() {
       {/* MainNave */}
       <nav className="hidden items-center space-x-6 text-sm font-medium sm:flex">
         <LinkWrapper
-          href="/sponsor"
+          href="/how-to-support"
           className={cn(
             buttonVariants({
               variant: 'ghost',
@@ -59,7 +59,7 @@ function MainNav() {
           )}
         >
           <FaHandHoldingHeart className="mr-2 h-4 w-4" />
-          Sponsor
+          How to Support
         </LinkWrapper>
         <LinkWrapper
           href={links.botInvite}
