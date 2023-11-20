@@ -27,7 +27,7 @@ export function Navbar() {
   return (
     <div
       className={cn(
-        'fixed z-50 flex h-20 w-full transform-gpu items-center bg-transparent transition-all duration-300',
+        'fixed z-50 flex h-20 w-full transform-gpu items-center bg-transparent transition-all duration-300 ease-in',
         position > 180 && 'h-16 border-b bg-background/60 backdrop-blur-md',
       )}
     >
