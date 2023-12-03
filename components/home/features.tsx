@@ -32,7 +32,7 @@ export function Features() {
               I believe that everyone should have access to a high-quality music
               bot without having to pay for it. If you like Sana, please
               consider supporting me following{' '}
-              <LinkWrapper href="/sponsor">this way</LinkWrapper>.
+              <LinkWrapper href="/how-to-support">this way</LinkWrapper>.
             </>
           }
         />
