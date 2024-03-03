@@ -51,7 +51,7 @@ const faq = [
     question: 'Why is Sana sometimes offline or not working?',
     answer: (
       <>
-        Sana is developed by a single developer. So sometimes I miss something,
+        Sana is developed by a single developer. So sometimes I missed something,
         and Sana is not working correctly. If you find any bugs, please report
         them to me. I will fix it ASAP.
       </>
