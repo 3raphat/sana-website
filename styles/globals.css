@@ -70,7 +70,7 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border scroll-smooth;
   }
   body {
     @apply bg-gradient-to-br from-primary-foreground to-background text-foreground;
